@@ -7,11 +7,11 @@
 /* Body styling */
 body {
     header {
-    background-color: #93d0f4; 
-    text-align: center;
-    h1 {color: #FFFFFF;}
-    padding-top: 15px;
-    padding-bottom: 20px;
+        background-color: #93d0f4; 
+        text-align: center;
+        h1 {color: #FFFFFF;}
+        padding-top: 15px;
+        padding-bottom: 20px;
     }   
     table {
         width: 100%;
@@ -36,6 +36,7 @@ body {
     .relevant_links {
         padding-top: 15px;
         padding-bottom: 20px;
+        a {color: #0079c1;}
     }
     footer {
         background-color: #93d0f4;

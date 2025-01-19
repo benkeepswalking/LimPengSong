@@ -9,13 +9,7 @@ body {
     header {
         background-color: #93d0f4; 
         text-align: center;
-        h1 {color: #FFFFFF;}
-        padding-top: 15px;
-        padding-bottom: 20px;
     }   
-    table {
-        width: 100%;
-    }
     table, th, td {
         border: 1px solid #ddd;
         border-collapse: collapse;
@@ -27,24 +21,37 @@ body {
     color: #333;
     line-height: 1.6;
     padding: 20px;
-    .about_the_company {
-        padding-top: 15px;
-    }
-    .stock_information {
-        padding-top: 15px;
-    }
     .relevant_links {
-        padding-top: 15px;
-        padding-bottom: 20px;
         a {color: #0079c1;}
     }
     footer {
         background-color: #93d0f4;
         text-align: center;
-        p {color: #FFFFFF;}
         padding-top: 10px;
         padding-bottom: 10px;
     }
 }
 
 /* Add in your own customisations */
+header {
+    h1 {color: #FFFFFF;}
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}   
+table {
+    width: 100%;
+}
+.about_the_company {
+    padding-top: 15px;
+}
+.stock_information {
+    padding-top: 15px;
+}
+.relevant_links {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+footer {
+    p {color: #FFFFFF;}
+}

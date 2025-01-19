@@ -6,11 +6,44 @@
 
 /* Body styling */
 body {
+    header {
+    background-color: #93d0f4; 
+    text-align: center;
+    h1 {color: #FFFFFF;}
+    padding-top: 15px;
+    padding-bottom: 20px;
+    }   
+    table {
+        width: 100%;
+    }
+    table, th, td {
+        border: 1px solid #ddd;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: left;
+    }
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
     line-height: 1.6;
     padding: 20px;
+    .about_the_company {
+        padding-top: 15px;
+    }
+    .stock_information {
+        padding-top: 15px;
+    }
+    .relevant_links {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    footer {
+        background-color: #93d0f4;
+        text-align: center;
+        p {color: #FFFFFF;}
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 /* Add in your own customisations */

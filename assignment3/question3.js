@@ -6,3 +6,8 @@ const disneyData = {
 };
 
 // Write your code below
+let openFloat = parseFloat(disneyData["open"])
+let highFloat = parseFloat(disneyData["high"])
+let lowFloat = parseFloat(disneyData["low"])
+let closeFloat = parseFloat(disneyData["close"])
+console.log((openFloat - highFloat + lowFloat - closeFloat).toFixed(2))

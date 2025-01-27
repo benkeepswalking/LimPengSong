@@ -20,7 +20,7 @@ if (closeFloat > openFloat && volumeFloat > 100000) {
     console.log("Bullish")
 }
 
-if (closeFloat < openFloat && volume > 100000) {
+if (closeFloat < openFloat && volumeFloat > 100000) {
     console.log("Strong Bearish")
 } else if (closeFloat < openFloat && volumeFloat > 100000) {
     console.log("Bearish")

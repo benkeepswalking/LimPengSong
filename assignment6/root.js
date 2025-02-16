@@ -45,14 +45,15 @@
   )};
 
   function Header(props) {
-    return (<header>
+    return (<header className='header'>
       <h1>{props.title}</h1>
       <p>{props.tagline}</p>
     </header>);
   }
 
   function Footer(props) {
-    return (<footer>
+    return (
+    <footer className='footer'>
       <p>© {props.year} My Blog. All rights reserved.</p>
     </footer>);
   }
@@ -98,7 +99,7 @@
     ];
     
     return (
-      <div>
+      <div className='app'>
         <Header title="My Blog" tagline="A blog about everything" />
         <BlogList blogPosts={blogPosts}/>
         <Footer year={new Date().getFullYear()} />

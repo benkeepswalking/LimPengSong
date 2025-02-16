@@ -52,8 +52,7 @@
   }
 
   function Footer(props) {
-    return (
-    <footer className='footer'>
+    return (<footer className='footer'>
       <p>© {props.year} My Blog. All rights reserved.</p>
     </footer>);
   }
